@@ -1,0 +1,10 @@
+transfer:
+  tables:
+    - name: orders
+      dateColumn: created_date
+    - name: customers
+      dateColumn: created_date
+    - name: invoices
+      dateColumn: invoice_date
+    # ... all 50 tables
+  days: 90
